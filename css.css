@@ -83,7 +83,7 @@ body{
 }
 
 #chat #sidebar #sidebarheader{
-    flex-basis: 67px;
+    flex-basis: 69px;
     background-color: #eeeeee;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ body{
   
 }
 
-#chat #sidebar #sidebarheader img{
+#chat #sidebar #sidebarheader #profile img {
     border-radius: 30px;
 }
 
