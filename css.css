@@ -75,7 +75,7 @@ body{
 }
 
 #chat #sidebar{
-    flex-basis: 26%;
+    flex-basis: 32%;
     border-right: 1px solid #ccc;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@ body{
 }
 
 #chat #sidebar #sidebarheader{
-    flex-basis:85px;
+    flex-basis:69px;
     background-color: #eeeeee;
     display: flex;
     align-items: center;
@@ -181,6 +181,16 @@ body{
     padding-left: 13px;
 }
 
+#chat #sidebar #contents .convo .text .hmm{
+    display: flex;
+    flex-direction: row;
+}
+
+#chat #sidebar #contents .convo .text .hmm img{
+    padding: 0px 3px;
+    padding-top: 2px;
+}
+
 #chat #sidebar #contents .convo .pic img{
    margin-left: 10px;
     height: 40px;
@@ -269,17 +279,33 @@ body{
 }
 
 #chat #hihi #header{
-    flex-basis: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 61px;
     background-color: #eeeeee;
     box-shadow: 2px 0px 4px #ccc;
 }
 
-#chat #hihi #body{
-    flex-grow: 1;
+#chat #hihi #header .prof img{
+    padding: 0px 20px;
+    height: 40px;
+}
+
+#chat #hihi #header .person{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
+    flex-direction: column;
+}
+
+#chat #hihi #header .person .name{
+    font-weight: 500;
+     padding: 2px 2px;
+}
+
+#chat #hihi #header .person .online{
+    color:#979797;
+    font-size: small ; 
+    padding: 2px 4px;
 }
 
 #chat #hihi #footer{
@@ -311,4 +337,41 @@ body{
     padding: 0px 25px;
     cursor: pointer;
 }
+
+#chat #hihi #body{
+    flex-grow: 1;
+    overflow: scroll;
+    font-size: 15px;
+    padding: 20px 20px;
+    color: #585858;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+#chat #hihi #body #huhu{
+    flex-direction: row;
+   
+    
+}
+
+#chat #hihi #body .me{
+    background-color: #dcf7c5;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+
+#chat #hihi #body .u{
+    background-color: #fff;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
 
