@@ -83,7 +83,7 @@ body{
 }
 
 #chat #sidebar #sidebarheader{
-    flex-basis: 69px;
+    flex-basis:85px;
     background-color: #eeeeee;
     display: flex;
     align-items: center;
@@ -259,5 +259,53 @@ body{
 #chat .main a{
     text-decoration: none;
     color: #45bf57;
+}
+
+#chat #hihi{
+    flex-direction: column;
+    flex-grow: 1;
+    display: none;  
+    background-color: #e7dfdc;
+}
+
+#chat #hihi #header{
+    flex-basis: 64px;
+    background-color: #eeeeee;
+    box-shadow: 2px 0px 4px #ccc;
+}
+
+#chat #hihi #body{
+    flex-grow: 1;
+    
+}
+
+#chat #hihi #footer{
+    flex-basis: 64px;
+    background-color: #f0eeed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#chat #hihi #footer #text{
+    flex-grow: 1;
+}
+
+#chat #hihi #footer #text input{
+    padding: 0px 15px;
+    width: 100%;
+    border: 0px;
+    border-radius: 5px;
+    height: 40px;
+    resize: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#chat #hihi #footer img{
+    width: 25px;
+    padding: 0px 25px;
+    cursor: pointer;
 }
 

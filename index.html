@@ -7,7 +7,17 @@
     <title>Whatsapp</title>
     <link rel="stylesheet" href="css.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <script src="java.js"></script>
+
+
+    <script type="text/javascript">
+        function change(i) {
+            document.getElementById("haha").style.display = "none";
+            document.getElementById("hihi").style.display = "flex";
+            
+       }
+    </script>
+
+
 </head>
 <body>
    
@@ -32,7 +42,7 @@
               <div id="contents">
                   <!-- <div id="nochats">All chats are archived</div> -->
 
-                  <div class="convo" >
+                  <div class="convo" id="chat1" onclick="change('main')" >
                       <div class="pic"><img src="profile1.svg" alt=""></div>
                       <div class="text">
                           <div class="data">
@@ -163,7 +173,7 @@
                         <div class="message">Good Morning</div>
                     </div>
                  </div>
-                 <div class="convo">
+                 <div  class="convo">
                     <div class="pic"><img src="profile1.svg" alt=""></div>
                     <div class="text">
                         <div class="data">
@@ -176,7 +186,9 @@
                 </div>
 
               </div>
-          <div class="main">
+
+
+          <div class="main" id="haha">
               <img src="phoneIcon.png" alt="">
               <h2>Keep your phone connected</h2>
               <p>
@@ -187,7 +199,21 @@
               <p>WhatsApp is available for Mac. <a href="https://apps.apple.com/us/app/whatsapp-desktop/id1147396723?mt=12">Get it here</a></p>
           </div>    
 
+
+
+          <div id="hihi">
+            <div id="header"></div>
+            <div id="body"></div>
+            <div id="footer">
+                <div id="emote"><img src="smileIcon.svg" alt=""></div>
+                <div id="text"><input type="text"></div>
+                <div id="mic"><img src="voiceIcon.svg" alt=""></div>
+            </div>
+          </div>  
+  
           </div>
       </div>
+    
 </body>
+
 </html>
