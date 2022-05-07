@@ -14,6 +14,19 @@
             document.getElementById("haha").style.display = "none";
             document.getElementById("hihi").style.display = "flex";
        }
+
+       function newmsg(ele) {
+            if(event.key === 'Enter') {
+                var msg =ele.value;   
+                var div = document.createElement("div");
+                div.className="me";
+                div.innerHTML = msg;
+                document.getElementById("huhu").appendChild(div); 
+                ele.value='';    
+           }
+       }
+
+
     </script>
 
 
@@ -245,7 +258,7 @@
 
             <div id="footer">
                 <div id="emote"><img src="smileIcon.svg" alt=""></div>
-                <div id="text"><input type="text"></div>
+                <div id="text"><input type="text" class="msg" onkeydown="newmsg(this)"></div>
                 <div id="mic"><img src="voiceIcon.svg" alt=""></div>
             </div>
           </div>  

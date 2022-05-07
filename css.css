@@ -342,27 +342,6 @@ body{
 }
 
 
-   
-
-
-/* #chat #hihi #body{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    flex-grow: 1;
-    color: #585858;
-    padding :10px 10px;
-}    
-
-#chat #hihi #body #huhu .me{
-    display: inline-block;
-    align-items: flex-end;
-    text-align: end;
-    
-    background-color: #dcf7c5;
-
-}*/
-
 #chat #hihi #body {
     color: #434242;
     flex-grow: 1;
