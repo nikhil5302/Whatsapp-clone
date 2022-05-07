@@ -288,8 +288,11 @@ body{
 }
 
 #chat #hihi #header .prof img{
-    padding: 0px 20px;
-    height: 40px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 45px;
+    
 }
 
 #chat #hihi #header .person{
@@ -337,40 +340,59 @@ body{
     cursor: pointer;
 }
 
-#chat #hihi #body{
-    flex-grow: 1;
-    overflow: scroll;
-    font-size: 15px;
-    padding: 20px 20px;
-    color: #585858;
+
+   
+
+
+/* #chat #hihi #body{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: flex-end;
-}
+    flex-grow: 1;
+    color: #585858;
+    padding :10px 10px;
+}    
 
-#chat #hihi #body #huhu{
-    flex-direction: row;
-   
-    
-}
-
-#chat #hihi #body .me{
-    background-color: #dcf7c5;
-    padding: 10px 10px;
-    margin-top: 10px;
-    border-radius: 10px;
-    
-}
-
-#chat #hihi #body .u{
-    background-color: #fff;
-    padding: 10px 10px;
-    margin-top: 10px;
-    border-radius: 10px;
-    flex-direction: row;
+#chat #hihi #body #huhu .me{
+    display: inline-block;
     align-items: flex-end;
+    text-align: end;
+    
+    background-color: #dcf7c5;
+
+}*/
+
+#chat #hihi #body {
+    color: #434242;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    padding: 20px 50px;
+    overflow: scroll;
 }
 
+#chat #hihi #body #huhu {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+          
+ #chat #hihi #body #huhu .me {
+     align-items: flex-end;
+    background-color: #dcf7c5;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
 
-
+ #chat #hihi #body #huhu .u{
+     background-color: #fff;
+    border-radius: 5px;
+     padding: 10px;
+     margin-top: 10px;
+} 
+        
+      
+    
